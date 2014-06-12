@@ -11,13 +11,14 @@ This is an **unofficial** clone of the FreeRTOS project's [Subversion repository
 
 ## Updating from Subversion
 
-README branch contains the README.md file changes.
-For your copies:
+README branch contains the README.md file changes.For your copies:
+
 1. `git checkout vendor`
 2. `git svn fetch`
-3. `git merge trunk`
+3. `git merge --ff-only trunk`
 
--> I do the same with master branch.
+I do the same with master branch.
+
 1. `git checkout master`
 2. `git svn fetch`
-3. `git merge trunk`
+3. `git merge --ff-only trunk`
